@@ -110,7 +110,6 @@ def main():
     from pathlib import Path
     txt = Path('data.txt').read_text()
     datosFromFile = txt.split(sep='-')
-    print('txt', txt)
 
     host = datosFromFile[1]
     path = ''
